@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    body{
+        background-repeat: no-repeat;
+        background-color:#d0e8f3;
+    }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2 style="text-align:center;font-size:50px;">Sign Up</h2><br>
+    <div class="row"style="margin-left:450px;">
+    
+    <form action="preg.php" method="POST" enctype="multipart/form-data" >
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" class="form-control" required><br>
+      <label for="name">Picture:</label>
+      <input type="file" id="name" name="image" class="form-control" required><br>
+      <label for="location">Real-time Location:</label>
+      <input type="text" id="location" name="location" class="form-control" required><br>
+
+      <label for="number">Number:</label>
+      <input type="tel" id="number" name="number" class="form-control" required><br>
+
+      <label for="name">Occupation:</label>
+      <input type="text" id="occupation" name="occupation" class="form-control" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" class="form-control" required><br>
+
+      <label for="name">Password:</label>
+      <input type="text" id="password" name="password" class="form-control" required><br>
+
+      <button type="submit" class="btn btn-info" name="submit">Sign Up</button>
+    
+      <!-- <a href="occup.html">Sign In</a> -->
+    </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

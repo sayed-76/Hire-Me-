@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="req.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="requestsBtn">Requests</button>
+        <button id="scheduleBtn" onclick="myfunc()">Schedule</button>
+        <button id="availabilityBtn" onclick="myfunc1()">Update Status</button>
+        <hr style="width:100%;text-align:left;margin-left:0">
+        <div class="row">
+        <div class="col-md-4">
+            <h3>Sannidhi Dev</h3>
+            <p>Request Session : <ul>
+                <li>Date : 14/12/24</li>
+                <li>Time : 12:00 pm - 4:00 pm</li>
+                <li>Address : Market Road, Shiroor</li>
+                <li>Contact :8796542367</li>
+            </ul></p>
+        </div>
+        <div class="col-md-4">
+            <h3>Sameena Shaikh</h3>
+            <p>Request Session : <ul>
+                <li>Date : 18/12/24</li>
+                <li>Time : 3:00 pm - 6:00 pm</li>
+                <li>Address : Jali Road, Udupi</li>
+                <li>Contact : 9457834567</li>
+            </ul></p>
+        </div>
+        <div class="col-md-4">
+            <h3>Deeksha Naik</h3>
+            <p>Request Session : <ul>
+                <li>Date : 25/12/24</li>
+                <li>Time : 9:00 am - 12:00 pm</li>
+                <li>Address : Nehru Nagar, Kundapur</li>
+                <li>Contact : 9874563276</li>
+            </ul></p>
+        </div>
+        </div>
+    </div>
+    <br>
+    <script>
+        function myfunc()
+        {
+            window.location="schedule.html";
+        }
+        function myfunc1()
+        {
+            window.location="updatestatus.html";
+        }
+    </script>
+    <!-- <script src="req.js"></script> -->
+</body>
+</html>

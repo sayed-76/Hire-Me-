@@ -1,0 +1,16 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+  }
+  .container
+  {
+   
+    background: url(' https://images.app.goo.gl/sCuFaXijUbkwb7wu5') no-repeat center center/cover;
+  }
+  
+  
